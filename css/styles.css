@@ -71,6 +71,7 @@ li {
 /*Tab bar styles */
 #tab-bar {
     background-color:white;
+    white-space:nowrap;
     
 }
 
@@ -79,7 +80,7 @@ li {
     background-color:white;
     font-size: 13px;
     border:none;
-    width:32%;
+    width:33%;
     height:72px;
     box-sizing: border-box;
     padding:16px;
