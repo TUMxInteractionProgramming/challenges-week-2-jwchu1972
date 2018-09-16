@@ -9,7 +9,10 @@
     <!-- We need to specify the character encoding, since we use chinese characters -->
     <meta charset="UTF-8">
 
-    <!-- #2 #css #elements -->
+    
+    <link rel="stylesheet" href=".\css\styles.css">
+    
+    <!-- #2 #css #elements 
     <style>
 
         /* #2 #colorful #palette is:
@@ -88,7 +91,7 @@
         }
         
 
-    </style>
+    </style> -->
 
 </head>
 
@@ -103,17 +106,17 @@
 <!-- #1 #channels #topics -->
 <ul>
     <li>#Yummy <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt= "little star" ></li>
-    <li>#SevenContinents <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt= "little star" ></li>
+    <li class="highlighted">#SevenContinents <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt= "little star" ></li>
     <li>#KillerApp <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt= "little star" ></li>
     <li>#FirstPersonOnMars <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt= "little star" ></li>
     <li>#Octoberfest <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt= "little star" ></li>
 </ul>
 
 <!-- #1 #channels #buttons -->
-<div style="background-color:white">
-    <button style="background-color:lightgrey"> <img src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt= "lightbulb imag" >new</button>
-    <button style="background-color:lightgrey"> <img src="https://ip.lfe.mw.tum.de/sections/fire.png" alt= "fire imag" >trending</button>
-    <button style="background-color:lightgrey"> <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt= "star imag">favorites</button>
+<div id="tab-bar">
+    <button class="selected"> <img src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt= "lightbulb imag" >new</button>
+    <button> <img src="https://ip.lfe.mw.tum.de/sections/fire.png" alt= "fire imag" >trending</button>
+    <button> <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt= "star imag">favorites</button>
 </div>
 
 <!-- chat area -->
@@ -127,7 +130,7 @@
 </h1>
 
 <!-- 1st message container -->
-<div style="width:80%">
+<div class="message own">
 <!-- #1 #chat #metadata contains location, weekday, day, and time -->
 <h3>
     <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
@@ -145,7 +148,7 @@
 </div>
 
 <!-- 2nd message container -->
-<div style="width:80%">
+<div class="message">
 <!-- #1 #chat #metadata contains location, weekday, day, and time -->
 <h3>
     <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
@@ -163,7 +166,7 @@
 </div>
 
 <!-- 3rd message container -->
-<div style="width:80%">
+<div class="message">
 <!-- #1 #chat #metadata contains location, weekday, day, and time -->
 <h3>
     <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
@@ -181,7 +184,7 @@
 </div>
 
 <!-- 4th message container -->
-<div style="width:80%">
+<div class="message">
 <!-- #1 #chat #metadata contains location, weekday, day, and time -->
 <h3>
     <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
@@ -199,7 +202,7 @@
 </div>
 
 <!-- 5th message container -->
-<div style="width:80%">
+<div class="message">
 <!-- #1 #chat #metadata contains location, weekday, day, and time -->
 <h3>
     <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
@@ -217,7 +220,7 @@
 </div>
 
 <!-- 6th message container -->
-<div style="width:80%">
+<div class="message">
 <!-- #1 #chat #metadata contains location, weekday, day, and time  -->
 <h3>
     <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->

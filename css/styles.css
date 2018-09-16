@@ -1,0 +1,135 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/*Global styles */
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+
+
+
+a {
+    text-transform: uppercase;   
+}
+
+
+/*App bar styles */
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/*Channels list styles */
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+ul {
+    /* channel background color to white*/
+    background-color: lightgrey; 
+    list-style-type: none;  
+}
+
+li {
+    background-color:white;
+    padding:16px;
+    font-size: 16px;
+    height: 50;
+    border-bottom:1px lightgrey solid;
+}
+
+.highlighted {
+    border-left: 4px #3F51B5 solid;
+}
+
+
+/*Tab bar styles */
+#tab-bar {
+    background-color:white;
+    
+}
+
+#tab-bar button{
+    text-align:center;
+    background-color:white;
+    font-size: 13px;
+    border:none;
+    width:32%;
+    height:72px;
+    box-sizing: border-box;
+    padding:16px;
+
+}
+
+#tab-bar button.selected{
+    
+    border-bottom:4px #3F51B5 solid;
+}
+
+/*Messages styles */
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left:2.5%;
+}
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+.message h3 strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message h3 em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message h3 a {
+    /*set link color to primary text color - black*/
+    color:black;
+}
+
+
+.own {
+    margin-left:17.5%;
+}
+
+
+
